@@ -9,3 +9,4 @@ def input_to_index(input)
   move = input.to_i
   move + 1 
 end
+
