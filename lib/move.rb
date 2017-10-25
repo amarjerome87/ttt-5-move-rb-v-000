@@ -8,3 +8,8 @@ end
 def input_to_index(input)
   input.to_i + 1
 end
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+def method (array,index,player = "X")
+  array[index] = player 
+end 
+  
