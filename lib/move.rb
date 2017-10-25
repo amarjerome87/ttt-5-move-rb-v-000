@@ -10,6 +10,5 @@ def input_to_index(input)
 end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def method (array,index,player = "X")
-  array[index] = player 
+  array[index] = player
 end 
-  
